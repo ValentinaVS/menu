@@ -1,0 +1,187 @@
+body {
+      font-family: SourceSansPro;
+  font-weight: bold;
+  font-size: 11pt;
+  width: 100%;
+  //overflow: hidden;
+  background: #d9d9d9;
+}
+
+label {
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+
+  display: flex;
+  position: absolute;
+}
+
+nav {
+  width: 100%;
+  padding: 7px;
+}
+
+.img {
+  padding: 22px 0 0 0;
+}
+
+.img3 {
+   padding: 18px 0 0 0;
+ }
+.img4 {
+  padding: 20px 0 0 0;
+}
+.one a {
+  color: white;
+  width: 100%;
+  padding: -5px;
+  padding-top: -10px;
+}
+
+.aza a {
+  color: black;
+}
+li {
+  flost: left;
+  position: relative;
+  width: 100%;
+}
+
+#one {
+  border-radius: 10px 0 0 10px;
+  <!--width: 600px;-->
+}
+
+#fore {
+  width: 950px;
+  background: none;
+  border: none;
+}
+#fff {
+
+}
+
+#end {
+  border-radius: 0 10px 10px 0;
+}
+
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+  border: 2px solid #6a6a6a;
+    border-bottom-width: 5px;
+  width: 100%;
+}
+
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+
+.fa {
+padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  display: block;
+  outline: none;
+  padding: 10px 40px;
+  <!--transition: .5s linear;-->
+}
+
+.num {
+  background: linear-gradient(to top, #2c2c2c, #5f5f5f);
+  width: 478px;
+  height: 84px;
+  padding: 0;
+  margin: 0;
+
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  display: none;
+  color: black;
+}
+
+.one ul {
+}
+    
+    .two::after {
+    content: ''; 
+    position: absolute; 
+    left: 110px; top: -30px; 
+    border: 15px solid transparent; 
+    border-bottom: 10px solid #696969; 
+   }
+    
+
+#sub {
+  color: #797979;
+  background: white;
+  filter: invert(100%);
+  border-top: 2px solid #6a6a6a;
+    border-top-width: 5px;
+    
+}
+#sub1 {
+  color: #797979;
+  background: white;
+  filter: invert(100%);
+  border-top: 2px solid #6a6a6a;
+    left: 320px;
+    border-top-width: 5px;
+}
+#sub2 {
+  color: #797979;
+  background: white;
+  filter: invert(100%);
+  border-top: 2px solid #6a6a6a;
+    left: 640px;
+    border-top-width: 5px;
+}
+#azazaza {
+    color: white;
+}
+#azazaz {
+    
+}
+
+
+
+
+.azaza {
+    background: white;
+    border-bottom: 1px solid #f2f2f2   ;
+}
+.zazaza {
+    background: white;
+    border-bottom: 2px solid #f5f5f5;
+}
+.one.submenu {
+  display: none;
+  background: red;
+}
+.one ul li:hover.submenu {
+  display: block;
+}
+
+.one ul li:hover.num {
+  display: block;
+  filter: invert(100%);
+  background: black;
+}
+
+ul li:hover .submenu {
+  display: block;
+}
